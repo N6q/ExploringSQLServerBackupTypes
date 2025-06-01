@@ -29,25 +29,6 @@ This repository contains a complete guide and SQL scripts to understand and impl
      - Hourly transaction log backups
    - File naming conventions and sample scripts included
 
----
 
-## 🚀 How to Use
 
-1. Clone this repo or copy the scripts locally.
-2. Run each SQL segment inside **SQL Server Management Studio (SSMS)**.
-3. Review the explanations for each backup type to understand best practices.
-4. Adapt the real-world backup strategy to your production or test environments.
 
----
-
-## 📂 Backup Folder Structure
-
-C:\HospitalBackups
-├── Full
-│ └── HospitalDB_Full_YYYYMMDD.bak
-├── Differential
-│ └── HospitalDB_Diff_YYYYMMDD.bak
-└── Logs
-└── HospitalDB_Log_YYYYMMDD_HH.trn
-
----
